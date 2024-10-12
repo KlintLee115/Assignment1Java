@@ -19,8 +19,4 @@ public class Cylinder extends Shape3D
         return getBaseArea() * height;
     }
 
-    @Override
-    public String toString() {
-        return "Cylinder (height: " + height + ", radius: " + radius + ")";
-    }
 }

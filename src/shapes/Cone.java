@@ -18,9 +18,4 @@ public class Cone extends Shape3D
     public double getVolume() {
         return (1.0 / 3.0) * getBaseArea() * height;
     }
-
-    @Override
-    public String toString() {
-        return "Cone (height: " + height + ", radius: " + radius + ")";
-    }
 }

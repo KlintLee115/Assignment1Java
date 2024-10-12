@@ -18,9 +18,4 @@ public class Pyramid extends Shape3D
     public double getVolume() {
         return (1.0 / 3.0) * getBaseArea() * height;
     }
-
-    @Override
-    public String toString() {
-        return "Pyramid (height: " + height + ", edge length: " + edgeLength + ")";
-    }
 }

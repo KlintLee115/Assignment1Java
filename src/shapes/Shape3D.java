@@ -16,4 +16,10 @@ public abstract class Shape3D implements Comparable<Shape3D> {
     public int compareTo(Shape3D otherShape) {
         return Double.compare(this.height, otherShape.height);
     }
+
+    @Override
+    public String toString() {
+
+        return "The polygons. " + this.getClass().getSimpleName() + " has a base area of " + this.getBaseArea() + " and has a Volume of " + this.getVolume();
+    }
 }

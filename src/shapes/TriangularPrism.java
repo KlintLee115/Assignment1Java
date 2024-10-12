@@ -23,9 +23,4 @@ public class TriangularPrism extends Shape3D
     public double getVolume() {
         return getBaseArea() * height;
     }
-
-    @Override
-    public String toString() {
-        return "TriangularPrism (height: " + height + ", edge length: " + edgeLength + ")";
-    }
 }

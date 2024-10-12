@@ -18,9 +18,4 @@ public class PentagonalPrism extends Shape3D {
     public double getVolume() {
         return getBaseArea() * height;
     }
-
-    @Override
-    public String toString() {
-        return "PentagonalPrism (height: " + height + ", edge length: " + edgeLength + ")";
-    }
 }
